@@ -1,2 +1,6 @@
 [core]
 	editor = vim
+[push]
+	default = simple
+[alias]
+	logadog = log --all --decorate --oneline --graph
