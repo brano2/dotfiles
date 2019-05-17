@@ -3,12 +3,11 @@
 [push]
 	default = simple
 [alias]
-	logadog = log --all --decorate --oneline --graph
         co = checkout
         ci = commit
         st = status
         br = branch
-        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+        hist = log --pretty=format:\"%C(auto)%h %ad | %s%d %C(magenta)[%an]\" --graph --date=short --decorate --all
         type = cat-file -t
         dump = cat-file -p
 
