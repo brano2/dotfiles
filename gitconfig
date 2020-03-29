@@ -6,6 +6,7 @@
         co = checkout
         ci = commit
         st = status
+        dc = diff --cached
         br = branch
         hist = log --pretty=format:\"%C(auto)%h %ad | %s%d %C(magenta)[%an]\" --graph --date=short --decorate --all
         type = cat-file -t
