@@ -8,6 +8,7 @@
         st = status
         dc = diff --cached
         br = branch
+        sw = switch
         hist = log --pretty=format:\"%C(auto)%h %ad | %s%d %C(magenta)[%an]\" --graph --date=short --decorate --all
         type = cat-file -t
         dump = cat-file -p
