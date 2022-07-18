@@ -12,4 +12,5 @@
         hist = log --pretty=format:\"%C(auto)%h %ad | %s%d %C(magenta)[%an]\" --graph --date=short --decorate --all
         type = cat-file -t
         dump = cat-file -p
-
+[init]
+	defaultBranch = main
